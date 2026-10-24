@@ -1,0 +1,1336 @@
+{
+  "version": "1.0.0",
+  "snapshot_date": "2026-10-22",
+  "title": "User Intervention in Human–LLM Collaborative Visual Analytics: A Survey",
+  "papers": [
+    {
+      "key": "s01",
+      "system": "Blace",
+      "title": "Learnable and Expressive Visualization Authoring Through Blended Interfaces",
+      "venue": "TVCG",
+      "year": 2025,
+      "doi": "10.1109/TVCG.2024.3456598",
+      "publication": "IEEE Transactions on Visualization and Computer Graphics",
+      "authors": "Sehi L'Yi, Astrid van den Brandt, Etowah Adams, Huyen N. Nguyen, Nils Gehlenborg",
+      "source": "https://dx.doi.org/10.31219/osf.io/pjcn4",
+      "codes": {
+        "DP": [],
+        "VM": [
+          "G",
+          "P",
+          "I"
+        ],
+        "VT": [],
+        "PR": []
+      },
+      "evidence": "GPT-4 edits Gosling specs from prompts and the linked code editor supports revisions of the current visualization",
+      "bibtex": "@article{s01,\n  author = {L'Yi, Sehi and van den Brandt, Astrid and Adams, Etowah and Nguyen, Huyen N. and Gehlenborg, Nils},\n  journal = {IEEE Transactions on Visualization and Computer Graphics},\n  title = {{Learnable and Expressive Visualization Authoring Through Blended Interfaces}},\n  year = {2025},\n  volume = {31},\n  number = {1},\n  pages = {459-469},\n  doi = {10.1109/TVCG.2024.3456598},\n  url = {https://doi.org/10.1109/TVCG.2024.3456598},\n}\n"
+    },
+    {
+      "key": "s02",
+      "system": "Data Formulator",
+      "title": "Data Formulator: AI-Powered Concept-Driven Visualization Authoring",
+      "venue": "TVCG",
+      "year": 2024,
+      "doi": "10.1109/TVCG.2023.3326585",
+      "publication": "IEEE Transactions on Visualization and Computer Graphics",
+      "authors": "Chenglong Wang, John Thompson, Bongshin Lee",
+      "source": "https://dx.doi.org/10.1109/TVCG.2023.3326585",
+      "codes": {
+        "DP": [
+          "G",
+          "S",
+          "P"
+        ],
+        "VM": [],
+        "VT": [],
+        "PR": []
+      },
+      "evidence": "Authors prompt data derivation then choose among code candidates or directly correct generated transformation code",
+      "bibtex": "@article{s02,\n  author = {Wang, Chenglong and Thompson, John and Lee, Bongshin},\n  journal = {IEEE Transactions on Visualization and Computer Graphics},\n  title = {{Data Formulator: AI-Powered Concept-Driven Visualization Authoring}},\n  year = {2024},\n  volume = {30},\n  number = {1},\n  pages = {1128-1138},\n  doi = {10.1109/TVCG.2023.3326585},\n  url = {https://doi.org/10.1109/TVCG.2023.3326585},\n}\n"
+    },
+    {
+      "key": "s03",
+      "system": "LEVA",
+      "title": "LEVA: Using Large Language Models to Enhance Visual Analytics",
+      "venue": "TVCG",
+      "year": 2025,
+      "doi": "10.1109/TVCG.2024.3368060",
+      "publication": "IEEE Transactions on Visualization and Computer Graphics",
+      "authors": "Yuheng Zhao, Yixing Zhang, Yu Zhang, Xinyi Zhao, Junjie Wang, Zekai Shao, Cagatay Turkay, Siming Chen",
+      "source": "https://dx.doi.org/10.1109/TVCG.2024.3368060",
+      "codes": {
+        "DP": [],
+        "VM": [],
+        "VT": [
+          "G",
+          "S"
+        ],
+        "PR": [
+          "G"
+        ]
+      },
+      "evidence": "Users choose recommended exploration questions and select analysis history as report context",
+      "bibtex": "@article{s03,\n  author = {Zhao, Yuheng and Zhang, Yixing and Zhang, Yu and Zhao, Xinyi and Wang, Junjie and Shao, Zekai and Turkay, Cagatay and Chen, Siming},\n  journal = {IEEE Transactions on Visualization and Computer Graphics},\n  title = {{LEVA: Using Large Language Models to Enhance Visual Analytics}},\n  year = {2025},\n  volume = {31},\n  number = {3},\n  pages = {1830-1847},\n  doi = {10.1109/TVCG.2024.3368060},\n  url = {https://doi.org/10.1109/TVCG.2024.3368060},\n}\n"
+    },
+    {
+      "key": "s04",
+      "system": "PhenoFlow",
+      "title": "PhenoFlow: A Human-LLM Driven Visual Analytics System for Exploring Large and Complex Stroke Datasets",
+      "venue": "TVCG",
+      "year": 2025,
+      "doi": "10.1109/TVCG.2024.3456215",
+      "publication": "IEEE Transactions on Visualization and Computer Graphics",
+      "authors": "Jaeyoung Kim, Sihyeon Lee, Hyeon Jeon, Keon-Joo Lee, Hee-Joon Bae, Bohyoung Kim, Jinwook Seo",
+      "source": "https://arxiv.org/abs/2407.16329v1",
+      "codes": {
+        "DP": [
+          "G"
+        ],
+        "VM": [],
+        "VT": [],
+        "PR": []
+      },
+      "evidence": "Neurologists revise natural language cohort criteria after inspecting LLM-wrangled data",
+      "bibtex": "@article{s04,\n  author = {Kim, Jaeyoung and Lee, Sihyeon and Jeon, Hyeon and Lee, Keon-Joo and Bae, Hee-Joon and Kim, Bohyoung and Seo, Jinwook},\n  journal = {IEEE Transactions on Visualization and Computer Graphics},\n  title = {{PhenoFlow: A Human-LLM Driven Visual Analytics System for Exploring Large and Complex Stroke Datasets}},\n  year = {2025},\n  volume = {31},\n  number = {1},\n  pages = {470-480},\n  doi = {10.1109/TVCG.2024.3456215},\n  url = {https://doi.org/10.1109/TVCG.2024.3456215},\n}\n"
+    },
+    {
+      "key": "s05",
+      "system": "ChartGPT",
+      "title": "ChartGPT: Leveraging LLMs to Generate Charts From Abstract Natural Language",
+      "venue": "TVCG",
+      "year": 2025,
+      "doi": "10.1109/TVCG.2024.3368621",
+      "publication": "IEEE Transactions on Visualization and Computer Graphics",
+      "authors": "Yuan Tian, Weiwei Cui, Dazhen Deng, Xinjing Yi, Yurun Yang, Haidong Zhang, Yingcai Wu",
+      "source": "https://dx.doi.org/10.1109/TVCG.2024.3368621",
+      "codes": {
+        "DP": [],
+        "VM": [
+          "G",
+          "I"
+        ],
+        "VT": [],
+        "PR": []
+      },
+      "evidence": "Users prompt chart generation and correct intermediate model outputs before downstream regeneration",
+      "bibtex": "@article{s05,\n  author = {Tian, Yuan and Cui, Weiwei and Deng, Dazhen and Yi, Xinjing and Yang, Yurun and Zhang, Haidong and Wu, Yingcai},\n  journal = {IEEE Transactions on Visualization and Computer Graphics},\n  title = {{ChartGPT: Leveraging LLMs to Generate Charts From Abstract Natural Language}},\n  year = {2025},\n  volume = {31},\n  number = {3},\n  pages = {1731-1745},\n  doi = {10.1109/TVCG.2024.3368621},\n  url = {https://doi.org/10.1109/TVCG.2024.3368621},\n}\n"
+    },
+    {
+      "key": "s06",
+      "system": "DeepVis",
+      "title": "DeepVIS: Bridging Natural Language and Data Visualization Through Step-Wise Reasoning",
+      "venue": "TVCG",
+      "year": 2026,
+      "doi": "10.1109/TVCG.2025.3634645",
+      "publication": "IEEE Transactions on Visualization and Computer Graphics",
+      "authors": "Zhihao Shuai, Boyan Li, Siyu Yan, Yuyu Luo, Weikai Yang",
+      "source": "https://dx.doi.org/10.48550/arXiv.2508.01700",
+      "codes": {
+        "DP": [
+          "G",
+          "S"
+        ],
+        "VM": [
+          "G",
+          "S"
+        ],
+        "VT": [],
+        "PR": []
+      },
+      "evidence": "Users target a data or chart reasoning step with manual correction and compare revised paths",
+      "bibtex": "@article{s06,\n  author = {Shuai, Zhihao and Li, Boyan and Yan, Siyu and Luo, Yuyu and Yang, Weikai},\n  journal = {IEEE Transactions on Visualization and Computer Graphics},\n  title = {{DeepVIS: Bridging Natural Language and Data Visualization Through Step-Wise Reasoning}},\n  year = {2026},\n  volume = {32},\n  number = {1},\n  pages = {868-878},\n  doi = {10.1109/TVCG.2025.3634645},\n  url = {https://doi.org/10.1109/TVCG.2025.3634645},\n}\n"
+    },
+    {
+      "key": "s07",
+      "system": "LightVA",
+      "title": "LightVA: Lightweight Visual Analytics With LLM Agent-Based Task Planning and Execution",
+      "venue": "TVCG",
+      "year": 2025,
+      "doi": "10.1109/TVCG.2024.3496112",
+      "publication": "IEEE Transactions on Visualization and Computer Graphics",
+      "authors": "Yuheng Zhao, Junjie Wang, Linbing Xiang, Xiaowen Zhang, Zifei Guo, Cagatay Turkay, Yu Zhang, Siming Chen",
+      "source": "https://dx.doi.org/10.1109/TVCG.2024.3496112",
+      "codes": {
+        "DP": [],
+        "VM": [
+          "S",
+          "P"
+        ],
+        "VT": [
+          "G",
+          "S"
+        ],
+        "PR": [
+          "P"
+        ]
+      },
+      "evidence": "Users choose generated visualization cards and edit Vega-Lite or insight text while guiding exploration tasks",
+      "bibtex": "@article{s07,\n  author = {Zhao, Yuheng and Wang, Junjie and Xiang, Linbing and Zhang, Xiaowen and Guo, Zifei and Turkay, Cagatay and Zhang, Yu and Chen, Siming},\n  journal = {IEEE Transactions on Visualization and Computer Graphics},\n  title = {{LightVA: Lightweight Visual Analytics With LLM Agent-Based Task Planning and Execution}},\n  year = {2025},\n  volume = {31},\n  number = {9},\n  pages = {6162-6177},\n  doi = {10.1109/TVCG.2024.3496112},\n  url = {https://doi.org/10.1109/TVCG.2024.3496112},\n}\n"
+    },
+    {
+      "key": "s08",
+      "system": "Exploring Multimodal Prompt for Visualization Authoring With Large Language Models",
+      "title": "Exploring Multimodal Prompt for Visualization Authoring With Large Language Models",
+      "venue": "TVCG",
+      "year": 2026,
+      "doi": "10.1109/TVCG.2026.3701510",
+      "publication": "IEEE Transactions on Visualization and Computer Graphics",
+      "authors": "Zhen Wen, Luoxuan Weng, Yinghao Tang, Runjin Zhang, Yuxin Liu, Bo Pan, Minfeng Zhu, Wei Chen",
+      "source": "https://arxiv.org/html/2504.13700",
+      "codes": {
+        "DP": [],
+        "VM": [
+          "G",
+          "I"
+        ],
+        "VT": [],
+        "PR": []
+      },
+      "evidence": "Users sketch or directly revise generated charts as visual prompts for the LLM",
+      "bibtex": "@article{s08,\n  author = {Wen, Zhen and Weng, Luoxuan and Tang, Yinghao and Zhang, Runjin and Liu, Yuxin and Pan, Bo and Zhu, Minfeng and Chen, Wei},\n  journal = {IEEE Transactions on Visualization and Computer Graphics},\n  title = {{Exploring Multimodal Prompt for Visualization Authoring With Large Language Models}},\n  year = {2026},\n  volume = {32},\n  number = {9},\n  pages = {7685-7700},\n  doi = {10.1109/TVCG.2026.3701510},\n  url = {https://doi.org/10.1109/TVCG.2026.3701510},\n}\n"
+    },
+    {
+      "key": "s09",
+      "system": "GeoAuthor",
+      "title": "GeoAuthor: Linking Text and Visualization for Geographic Article Authoring",
+      "venue": "TVCG",
+      "year": 2026,
+      "doi": "10.1109/TVCG.2026.3697212",
+      "publication": "IEEE Transactions on Visualization and Computer Graphics",
+      "authors": "Zhenning Chen, Hanbei Zhan, Shifu Chen, Zikun Deng, Di Weng, Yingcai Wu",
+      "source": "https://dwe.ng/pdf/geoauthor.pdf",
+      "codes": {
+        "DP": [],
+        "VM": [
+          "G",
+          "P",
+          "I"
+        ],
+        "VT": [],
+        "PR": [
+          "G",
+          "P",
+          "U"
+        ]
+      },
+      "evidence": "Authors guide and edit generated maps while composing text with LLM suggestions",
+      "bibtex": "@article{s09,\n  author = {Chen, Zhenning and Zhan, Hanbei and Chen, Shifu and Deng, Zikun and Weng, Di and Wu, Yingcai},\n  journal = {IEEE Transactions on Visualization and Computer Graphics},\n  title = {{GeoAuthor: Linking Text and Visualization for Geographic Article Authoring}},\n  year = {2026},\n  volume = {32},\n  number = {7},\n  pages = {7273-7287},\n  doi = {10.1109/TVCG.2026.3697212},\n  url = {https://doi.org/10.1109/TVCG.2026.3697212},\n}\n"
+    },
+    {
+      "key": "s10",
+      "system": "Geranium",
+      "title": "Geranium: Multimodal Retrieval of Genomics Data Visualizations",
+      "venue": "TVCG",
+      "year": 2026,
+      "doi": "10.1109/TVCG.2026.3683429",
+      "publication": "IEEE Transactions on Visualization and Computer Graphics",
+      "authors": "Huyen N. Nguyen, Sehi L'Yi, Thomas C. Smits, Shanghua Gao, Marinka Zitnik, Nils Gehlenborg",
+      "source": "https://gosling-lang.github.io/geranium/assets/Geranium_Multimodal_Retrieval_of_Genomics_Data_Visualizations.pdf",
+      "codes": {
+        "DP": [],
+        "VM": [
+          "G",
+          "S",
+          "P"
+        ],
+        "VT": [],
+        "PR": []
+      },
+      "evidence": "Users query and choose retrieved visualization examples then edit their Gosling specifications",
+      "bibtex": "@article{s10,\n  author = {Nguyen, Huyen N. and L'Yi, Sehi and Smits, Thomas C. and Gao, Shanghua and Zitnik, Marinka and Gehlenborg, Nils},\n  journal = {IEEE Transactions on Visualization and Computer Graphics},\n  title = {{Geranium: Multimodal Retrieval of Genomics Data Visualizations}},\n  year = {2026},\n  volume = {32},\n  number = {7},\n  pages = {6447-6463},\n  doi = {10.1109/TVCG.2026.3683429},\n  url = {https://doi.org/10.1109/TVCG.2026.3683429},\n}\n"
+    },
+    {
+      "key": "s11",
+      "system": "IDEA",
+      "title": "IDEA: Automated Design Space Exploration for Visualization Design",
+      "venue": "TVCG",
+      "year": 2026,
+      "doi": "10.1109/TVCG.2026.3684920",
+      "publication": "IEEE Transactions on Visualization and Computer Graphics",
+      "authors": "Chuer Chen, Xiaoke Yan, Xiaoyu Qi, Nan Cao",
+      "source": "https://arxiv.org/html/2506.10587",
+      "codes": {
+        "DP": [],
+        "VM": [
+          "G",
+          "I"
+        ],
+        "VT": [],
+        "PR": [
+          "G",
+          "I"
+        ]
+      },
+      "evidence": "Users provide article requirements and edit generated design elements before regenerating text and charts",
+      "bibtex": "@article{s11,\n  author = {Chen, Chuer and Yan, Xiaoke and Qi, Xiaoyu and Cao, Nan},\n  journal = {IEEE Transactions on Visualization and Computer Graphics},\n  title = {{IDEA: Automated Design Space Exploration for Visualization Design}},\n  year = {2026},\n  volume = {32},\n  number = {7},\n  pages = {6566-6580},\n  doi = {10.1109/TVCG.2026.3684920},\n  url = {https://doi.org/10.1109/TVCG.2026.3684920},\n}\n"
+    },
+    {
+      "key": "s14",
+      "system": "NeuroLens",
+      "title": "NeuroLens: A Holistic Visual Analytics System for Exploring Brain Networks Across Scales",
+      "venue": "TVCG",
+      "year": 2026,
+      "doi": "10.1109/TVCG.2026.3701404",
+      "publication": "IEEE Transactions on Visualization and Computer Graphics",
+      "authors": "Weihan Zhang, Jun Tao",
+      "source": "https://www.juntao.pro/pdf/tvcg26-neurolens.pdf",
+      "codes": {
+        "DP": [],
+        "VM": [],
+        "VT": [
+          "G"
+        ],
+        "PR": []
+      },
+      "evidence": "Analysts ask literature questions during brain-network exploration",
+      "bibtex": "@article{s14,\n  author = {Zhang, Weihan and Tao, Jun},\n  journal = {IEEE Transactions on Visualization and Computer Graphics},\n  title = {{NeuroLens: A Holistic Visual Analytics System for Exploring Brain Networks Across Scales}},\n  year = {2026},\n  volume = {32},\n  number = {9},\n  pages = {7714-7728},\n  doi = {10.1109/TVCG.2026.3701404},\n  url = {https://doi.org/10.1109/TVCG.2026.3701404},\n}\n"
+    },
+    {
+      "key": "s15",
+      "system": "ProactiveVA",
+      "title": "ProactiveVA: Proactive Visual Analytics with LLM-Based UI Agent",
+      "venue": "TVCG",
+      "year": 2026,
+      "doi": "10.1109/TVCG.2025.3642628",
+      "publication": "IEEE Transactions on Visualization and Computer Graphics",
+      "authors": "Yuheng Zhao, Xueli Shu, Liwen Fan, Lin Gao, Yu Zhang, Siming Chen",
+      "source": "https://dx.doi.org/10.1109/TVCG.2025.3642628",
+      "codes": {
+        "DP": [],
+        "VM": [],
+        "VT": [
+          "G",
+          "S"
+        ],
+        "PR": [
+          "G"
+        ]
+      },
+      "evidence": "Users request analyses accept proactive suggestions and submit notes for agent feedback",
+      "bibtex": "@article{s15,\n  author = {Zhao, Yuheng and Shu, Xueli and Fan, Liwen and Gao, Lin and Zhang, Yu and Chen, Siming},\n  journal = {IEEE Transactions on Visualization and Computer Graphics},\n  title = {{ProactiveVA: Proactive Visual Analytics with LLM-Based UI Agent}},\n  year = {2026},\n  volume = {32},\n  number = {1},\n  pages = {451-461},\n  doi = {10.1109/TVCG.2025.3642628},\n  url = {https://doi.org/10.1109/TVCG.2025.3642628},\n}\n"
+    },
+    {
+      "key": "s16",
+      "system": "RAGExplorer",
+      "title": "RAGExplorer: A Visual Analytics System for the Comparative Diagnosis of RAG Systems",
+      "venue": "TVCG",
+      "year": 2026,
+      "doi": "10.1109/TVCG.2026.3694443",
+      "publication": "IEEE Transactions on Visualization and Computer Graphics",
+      "authors": "Haoyu Tian, Yingchaojie Feng, Zhen Wen, Haoxuan Li, Minfeng Zhu, Wei Chen",
+      "source": "https://arxiv.org/html/2601.12991",
+      "codes": {
+        "DP": [
+          "G"
+        ],
+        "VM": [],
+        "VT": [],
+        "PR": []
+      },
+      "evidence": "Users remove retrieved context chunks and regenerate RAG answers for causal diagnosis",
+      "bibtex": "@article{s16,\n  author = {Tian, Haoyu and Feng, Yingchaojie and Wen, Zhen and Li, Haoxuan and Zhu, Minfeng and Chen, Wei},\n  journal = {IEEE Transactions on Visualization and Computer Graphics},\n  title = {{RAGExplorer: A Visual Analytics System for the Comparative Diagnosis of RAG Systems}},\n  year = {2026},\n  volume = {32},\n  number = {6},\n  pages = {4807-4817},\n  doi = {10.1109/TVCG.2026.3694443},\n  url = {https://doi.org/10.1109/TVCG.2026.3694443},\n}\n"
+    },
+    {
+      "key": "s17",
+      "system": "RuleScope",
+      "title": "RuleScope: Semantic-Aware Authoring of Data Validation Rules",
+      "venue": "TVCG",
+      "year": 2026,
+      "doi": "10.1109/TVCG.2026.3697222",
+      "publication": "IEEE Transactions on Visualization and Computer Graphics",
+      "authors": "Zhongsu Luo, Di Weng, Jiawen Zhu, Shuhan Liu, Xiwen Cai, Ran Chen, Kai Xiong, Jiajun Zhu, Xinhuan Shu, Yingcai Wu",
+      "source": "https://dwe.ng/pdf/rulescope.pdf",
+      "codes": {
+        "DP": [
+          "G",
+          "S",
+          "P",
+          "I"
+        ],
+        "VM": [],
+        "VT": [],
+        "PR": []
+      },
+      "evidence": "Users give valid-invalid examples choose suggested rule changes and edit generated validation rules",
+      "bibtex": "@article{s17,\n  author = {Luo, Zhongsu and Weng, Di and Zhu, Jiawen and Liu, Shuhan and Cai, Xiwen and Chen, Ran and Xiong, Kai and Zhu, Jiajun and Shu, Xinhuan and Wu, Yingcai},\n  journal = {IEEE Transactions on Visualization and Computer Graphics},\n  title = {{RuleScope: Semantic-Aware Authoring of Data Validation Rules}},\n  year = {2026},\n  volume = {32},\n  number = {8},\n  pages = {7500-7516},\n  doi = {10.1109/TVCG.2026.3697222},\n  url = {https://doi.org/10.1109/TVCG.2026.3697222},\n}\n"
+    },
+    {
+      "key": "s19",
+      "system": "VizDefender",
+      "title": "VizDefender: Unmasking Visualization Tampering Through Proactive Localization and Intent Inference",
+      "venue": "TVCG",
+      "year": 2026,
+      "doi": "10.1109/TVCG.2026.3694448",
+      "publication": "IEEE Transactions on Visualization and Computer Graphics",
+      "authors": "Sicheng Song, Yanjie Zhang, Zixin Chen, Huamin Qu, Changbo Wang, Chenhui Li",
+      "source": "https://arxiv.org/html/2512.18853",
+      "codes": {
+        "DP": [],
+        "VM": [],
+        "VT": [
+          "G"
+        ],
+        "PR": []
+      },
+      "evidence": "Users supply a chart to the MLLM for suspicious-chart examination",
+      "bibtex": "@article{s19,\n  author = {Song, Sicheng and Zhang, Yanjie and Chen, Zixin and Qu, Huamin and Wang, Changbo and Li, Chenhui},\n  journal = {IEEE Transactions on Visualization and Computer Graphics},\n  title = {{VizDefender: Unmasking Visualization Tampering Through Proactive Localization and Intent Inference}},\n  year = {2026},\n  volume = {32},\n  number = {6},\n  pages = {4720-4730},\n  doi = {10.1109/TVCG.2026.3694448},\n  url = {https://doi.org/10.1109/TVCG.2026.3694448},\n}\n"
+    },
+    {
+      "key": "s20",
+      "system": "VizQStudio",
+      "title": "VizQStudio: Iterative Visualization Literacy MCQs Design With Simulated Students",
+      "venue": "TVCG",
+      "year": 2026,
+      "doi": "10.1109/TVCG.2026.3695959",
+      "publication": "IEEE Transactions on Visualization and Computer Graphics",
+      "authors": "Zixin Chen, Yuhang Zeng, Sicheng Song, Yanna Lin, Xian Xu, Huamin Qu, Meng Xia",
+      "source": "https://arxiv.org/html/2603.00994",
+      "codes": {
+        "DP": [],
+        "VM": [
+          "G",
+          "P",
+          "I"
+        ],
+        "VT": [],
+        "PR": []
+      },
+      "evidence": "Teachers prompt chart-question revisions and directly edit generated chart code before resimulation",
+      "bibtex": "@article{s20,\n  author = {Chen, Zixin and Zeng, Yuhang and Song, Sicheng and Lin, Yanna and Xu, Xian and Qu, Huamin and Xia, Meng},\n  journal = {IEEE Transactions on Visualization and Computer Graphics},\n  title = {{VizQStudio: Iterative Visualization Literacy MCQs Design With Simulated Students}},\n  year = {2026},\n  volume = {32},\n  number = {8},\n  pages = {7468-7485},\n  doi = {10.1109/TVCG.2026.3695959},\n  url = {https://doi.org/10.1109/TVCG.2026.3695959},\n}\n"
+    },
+    {
+      "key": "s21",
+      "system": "AVA",
+      "title": "AVA: Towards Autonomous Visualization Agents through Visual Perception-Driven Decision-Making",
+      "venue": "EuroVis",
+      "year": 2024,
+      "doi": "10.1111/cgf.15093",
+      "publication": "Computer Graphics Forum",
+      "authors": "Shusen Liu, Haichao Miao, Zhimin Li, Matthew Olson, Valerio Pascucci, Peer-Timo Bremer",
+      "source": "https://dx.doi.org/10.1111/cgf.15093",
+      "codes": {
+        "DP": [],
+        "VM": [
+          "G"
+        ],
+        "VT": [],
+        "PR": []
+      },
+      "evidence": "Users state visualization goals while intermediate agent feedback is autonomous",
+      "bibtex": "@article{s21,\n  journal = {Computer Graphics Forum},\n  title = {{AVA: Towards Autonomous Visualization Agents through Visual Perception-Driven Decision-Making}},\n  author = {Liu, Shusen and Miao, Haichao and Li, Zhimin and Olson, Matthew and Pascucci, Valerio and Bremer, Peer-Timo},\n  year = {2024},\n  publisher = {The Eurographics Association and John Wiley \\& Sons Ltd.},\n  issn = {1467-8659},\n  doi = {10.1111/cgf.15093},\n  volume = {43},\n  number = {3},\n  pages = {e15093},\n  url = {https://doi.org/10.1111/cgf.15093},\n}\n"
+    },
+    {
+      "key": "s22",
+      "system": "Dataweaver",
+      "title": "DataWeaver: Authoring Data-Driven Narratives through the Integrated Composition of Visualization and Text",
+      "venue": "EuroVis",
+      "year": 2025,
+      "doi": "10.1111/cgf.70098",
+      "publication": "Computer Graphics Forum",
+      "authors": "Yu Fu, Dennis Bromley, Vidya Setlur",
+      "source": "https://dx.doi.org/10.1111/cgf.70098",
+      "codes": {
+        "DP": [],
+        "VM": [
+          "G",
+          "S"
+        ],
+        "VT": [],
+        "PR": [
+          "G",
+          "S",
+          "P",
+          "U"
+        ]
+      },
+      "evidence": "Authors use text to request charts and select candidates while accepting or revising generated narratives",
+      "bibtex": "@article{s22,\n  journal = {Computer Graphics Forum},\n  title = {{DataWeaver: Authoring Data-Driven Narratives through the Integrated Composition of Visualization and Text}},\n  author = {Fu, Yu and Bromley, Dennis and Setlur, Vidya},\n  year = {2025},\n  publisher = {The Eurographics Association and John Wiley \\& Sons Ltd.},\n  issn = {1467-8659},\n  doi = {10.1111/cgf.70098},\n  volume = {44},\n  number = {3},\n  pages = {e70098},\n  url = {https://doi.org/10.1111/cgf.70098},\n}\n"
+    },
+    {
+      "key": "s23",
+      "system": "InterChat",
+      "title": "InterChat: Enhancing Generative Visual Analytics using Multimodal Interactions",
+      "venue": "EuroVis",
+      "year": 2025,
+      "doi": "10.1111/cgf.70112",
+      "publication": "Computer Graphics Forum",
+      "authors": "Juntong Chen, Jiang Wu, Jiajing Guo, Vikram Mohanty, Xueming Li, Jorge Piazentin Ono, Wenbin He, Liu Ren, Dongyu Liu",
+      "source": "https://dx.doi.org/10.1111/cgf.70112",
+      "codes": {
+        "DP": [],
+        "VM": [
+          "G",
+          "P"
+        ],
+        "VT": [
+          "G"
+        ],
+        "PR": []
+      },
+      "evidence": "Users use sketches and language to request chart changes or view exploration and can edit generated code",
+      "bibtex": "@article{s23,\n  journal = {Computer Graphics Forum},\n  title = {{InterChat: Enhancing Generative Visual Analytics using Multimodal Interactions}},\n  author = {Chen, Juntong and Wu, Jiang and Guo, Jiajing and Mohanty, Vikram and Li, Xueming and Ono, Jorge Piazentin and He, Wenbin and Ren, Liu and Liu, Dongyu},\n  year = {2025},\n  publisher = {The Eurographics Association and John Wiley \\& Sons Ltd.},\n  issn = {1467-8659},\n  doi = {10.1111/cgf.70112},\n  volume = {44},\n  number = {3},\n  pages = {e70112},\n  url = {https://doi.org/10.1111/cgf.70112},\n}\n"
+    },
+    {
+      "key": "s24",
+      "system": "SUPQA",
+      "title": "SUPQA: LLM-based Geo-Visualization for Subjective Urban Performance Question-Answering",
+      "venue": "EuroVis",
+      "year": 2025,
+      "doi": "10.1111/cgf.70106",
+      "publication": "Computer Graphics Forum",
+      "authors": "Haiwen Huang, Juntong Chen, Changbo Wang, Chenhui Li",
+      "source": "https://dx.doi.org/10.1111/cgf.70106",
+      "codes": {
+        "DP": [
+          "G",
+          "P",
+          "I"
+        ],
+        "VM": [],
+        "VT": [
+          "G"
+        ],
+        "PR": [
+          "G"
+        ]
+      },
+      "evidence": "Users direct measure generation adjust weights and revise pseudo-documents before renewed answers",
+      "bibtex": "@article{s24,\n  journal = {Computer Graphics Forum},\n  title = {{SUPQA: LLM-based Geo-Visualization for Subjective Urban Performance Question-Answering}},\n  author = {Huang, Haiwen and Chen, Juntong and Wang, Changbo and Li, Chenhui},\n  year = {2025},\n  publisher = {The Eurographics Association and John Wiley \\& Sons Ltd.},\n  issn = {1467-8659},\n  doi = {10.1111/cgf.70106},\n  volume = {44},\n  number = {3},\n  pages = {e70106},\n  url = {https://doi.org/10.1111/cgf.70106},\n}\n"
+    },
+    {
+      "key": "s25",
+      "system": "VizTA",
+      "title": "VIZTA: Enhancing Comprehension of Distributional Visualization with Visual-Lexical Fused Conversational Interface",
+      "venue": "EuroVis",
+      "year": 2025,
+      "doi": "10.1111/cgf.70110",
+      "publication": "Computer Graphics Forum",
+      "authors": "Liangwei Wang, Zhan Wang, Shishi Xiao, Le Liu, Fugee Tsung, Wei Zeng",
+      "source": "https://arxiv.org/abs/2504.14507",
+      "codes": {
+        "DP": [],
+        "VM": [],
+        "VT": [
+          "G"
+        ],
+        "PR": [
+          "G"
+        ]
+      },
+      "evidence": "Readers select chart elements as grounding for LLM questions and explanations",
+      "bibtex": "@article{s25,\n  journal = {Computer Graphics Forum},\n  title = {{VIZTA: Enhancing Comprehension of Distributional Visualization with Visual-Lexical Fused Conversational Interface}},\n  author = {Wang, Liangwei and Wang, Zhan and Xiao, Shishi and Liu, Le and Tsung, Fugee and Zeng, Wei},\n  year = {2025},\n  publisher = {The Eurographics Association and John Wiley \\& Sons Ltd.},\n  issn = {1467-8659},\n  doi = {10.1111/cgf.70110},\n  volume = {44},\n  number = {3},\n  pages = {e70110},\n  url = {https://doi.org/10.1111/cgf.70110},\n}\n"
+    },
+    {
+      "key": "s29",
+      "system": "SlideSAVR",
+      "title": "SlideSAVR: Enabling Live Analysis during Data Presentations via Multimodal Sketching and Voice Input",
+      "venue": "EuroVis",
+      "year": 2026,
+      "doi": "10.1111/cgf.70459",
+      "publication": "Computer Graphics Forum",
+      "authors": "C. Han, M.M. Tanjim, S. Guo, C. Dierk, K.E. Isaacs, J. Hoffswell",
+      "source": "https://diglib.eg.org/items/f79dd707-8cab-4652-98f3-b018b7296718",
+      "codes": {
+        "DP": [],
+        "VM": [
+          "G",
+          "P",
+          "I"
+        ],
+        "VT": [],
+        "PR": [
+          "G",
+          "P",
+          "I"
+        ]
+      },
+      "evidence": "Presenters sketch or speak chart and slide changes and directly edit generated material",
+      "bibtex": "@article{s29,\n  journal = {Computer Graphics Forum},\n  title = {{SlideSAVR: Enabling Live Analysis during Data Presentations via Multimodal Sketching and Voice Input}},\n  author = {Han, C. and Tanjim, M.M. and Guo, S. and Dierk, C. and Isaacs, K.E. and Hoffswell, J.},\n  year = {2026},\n  publisher = {The Eurographics Association and John Wiley \\& Sons Ltd.},\n  issn = {1467-8659},\n  doi = {10.1111/cgf.70459},\n  pages = {e70459},\n  url = {https://doi.org/10.1111/cgf.70459},\n}\n"
+    },
+    {
+      "key": "s30",
+      "system": "UrbanClipAtlas",
+      "title": "URBANCLIPATLAS: A Visual Analytics Framework for Event and Scene Retrieval in Urban Videos",
+      "venue": "EuroVis",
+      "year": 2026,
+      "doi": "10.1111/cgf.70431",
+      "publication": "Computer Graphics Forum",
+      "authors": "J. Perca, L. Sante, J. Heredia, J. Rulff, C. Silva, J. Poco",
+      "source": "https://diglib.eg.org/items/17a8d7ec-4c72-4f7e-ac9c-b0801762afa0",
+      "codes": {
+        "DP": [],
+        "VM": [],
+        "VT": [
+          "G"
+        ],
+        "PR": [
+          "G"
+        ]
+      },
+      "evidence": "Analysts refine video questions and inspect generated explanations against clips",
+      "bibtex": "@article{s30,\n  journal = {Computer Graphics Forum},\n  title = {{URBANCLIPATLAS: A Visual Analytics Framework for Event and Scene Retrieval in Urban Videos}},\n  author = {Perca, J. and Sante, L. and Heredia, J. and Rulff, J. and Silva, C. and Poco, J.},\n  year = {2026},\n  publisher = {The Eurographics Association and John Wiley \\& Sons Ltd.},\n  issn = {1467-8659},\n  doi = {10.1111/cgf.70431},\n  pages = {e70431},\n  url = {https://doi.org/10.1111/cgf.70431},\n}\n"
+    },
+    {
+      "key": "s31",
+      "system": "DynaVis",
+      "title": "DynaVis: Dynamically Synthesized UI Widgets for Visualization Editing",
+      "venue": "CHI",
+      "year": 2024,
+      "doi": "10.1145/3613904.3642639",
+      "publication": "Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems",
+      "authors": "Priyan Vaithilingam, Elena L. Glassman, Jeevana Priya Inala, Chenglong Wang",
+      "source": "https://dx.doi.org/10.1145/3613904.3642639",
+      "codes": {
+        "DP": [],
+        "VM": [
+          "G",
+          "P"
+        ],
+        "VT": [
+          "P"
+        ],
+        "PR": []
+      },
+      "evidence": "Users prompt LLM-generated editing widgets and directly manipulate chart or view controls",
+      "bibtex": "@inproceedings{s31,\n  author = {Vaithilingam, Priyan and Glassman, Elena L. and Inala, Jeevana Priya and Wang, Chenglong},\n  title = {{DynaVis: Dynamically Synthesized UI Widgets for Visualization Editing}},\n  year = {2024},\n  isbn = {9798400703300},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3613904.3642639},\n  doi = {10.1145/3613904.3642639},\n  booktitle = {Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems},\n  articleno = {985},\n  numpages = {17},\n  location = {Honolulu, HI, USA},\n  series = {CHI '24},\n  pages = {985},\n}\n"
+    },
+    {
+      "key": "s32",
+      "system": "Data Formulator 2",
+      "title": "Data Formulator 2: Iterative Creation of Data Visualizations, with AI Transforming Data Along the Way",
+      "venue": "CHI",
+      "year": 2025,
+      "doi": "10.1145/3706598.3713296",
+      "publication": "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems",
+      "authors": "Chenglong Wang, Bongshin Lee, Steven M. Drucker, Dan Marshall, Jianfeng Gao",
+      "source": "https://dx.doi.org/10.1145/3706598.3713296",
+      "codes": {
+        "DP": [
+          "G"
+        ],
+        "VM": [
+          "G",
+          "P"
+        ],
+        "VT": [
+          "G"
+        ],
+        "PR": []
+      },
+      "evidence": "Users specify data transformations and chart encodings then directly style generated charts and branch views",
+      "bibtex": "@inproceedings{s32,\n  author = {Wang, Chenglong and Lee, Bongshin and Drucker, Steven M. and Marshall, Dan and Gao, Jianfeng},\n  title = {{Data Formulator 2: Iterative Creation of Data Visualizations, with AI Transforming Data Along the Way}},\n  year = {2025},\n  isbn = {9798400713941},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3706598.3713296},\n  doi = {10.1145/3706598.3713296},\n  booktitle = {Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems},\n  articleno = {677},\n  numpages = {17},\n  location = {Yokohama, Japan},\n  series = {CHI '25},\n  pages = {677},\n}\n"
+    },
+    {
+      "key": "s33",
+      "system": "Jupybara",
+      "title": "Jupybara: Operationalizing a Design Space for Actionable Data Analysis and Storytelling with LLMs",
+      "venue": "CHI",
+      "year": 2025,
+      "doi": "10.1145/3706598.3713913",
+      "publication": "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems",
+      "authors": "Huichen Will Wang, Larry Birnbaum, Vidya Setlur",
+      "source": "https://dx.doi.org/10.1145/3706598.3713913",
+      "codes": {
+        "DP": [
+          "G"
+        ],
+        "VM": [],
+        "VT": [
+          "G"
+        ],
+        "PR": [
+          "G",
+          "P"
+        ]
+      },
+      "evidence": "Analysts direct notebook analysis ask cell-specific questions and manually edit generated stories",
+      "bibtex": "@inproceedings{s33,\n  author = {Wang, Huichen Will and Birnbaum, Larry and Setlur, Vidya},\n  title = {{Jupybara: Operationalizing a Design Space for Actionable Data Analysis and Storytelling with LLMs}},\n  year = {2025},\n  isbn = {9798400713941},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3706598.3713913},\n  doi = {10.1145/3706598.3713913},\n  booktitle = {Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems},\n  articleno = {1005},\n  numpages = {24},\n  location = {Yokohama, Japan},\n  series = {CHI '25},\n  pages = {1005},\n}\n"
+    },
+    {
+      "key": "s34",
+      "system": "Plume",
+      "title": "Plume: Scaffolding Text Composition in Dashboards",
+      "venue": "CHI",
+      "year": 2025,
+      "doi": "10.1145/3706598.3713580",
+      "publication": "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems",
+      "authors": "Maxim Lisnic, Vidya Setlur, Nicole Sultanum",
+      "source": "https://dx.doi.org/10.1145/3706598.3713580",
+      "codes": {
+        "DP": [],
+        "VM": [],
+        "VT": [],
+        "PR": [
+          "G",
+          "S",
+          "P",
+          "U"
+        ]
+      },
+      "evidence": "Authors seed dashboard text and accept reject or rewrite LLM suggestions",
+      "bibtex": "@inproceedings{s34,\n  author = {Lisnic, Maxim and Setlur, Vidya and Sultanum, Nicole},\n  title = {{Plume: Scaffolding Text Composition in Dashboards}},\n  year = {2025},\n  isbn = {9798400713941},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3706598.3713580},\n  doi = {10.1145/3706598.3713580},\n  booktitle = {Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems},\n  articleno = {1085},\n  numpages = {18},\n  location = {Yokohama, Japan},\n  series = {CHI '25},\n  pages = {1085},\n}\n"
+    },
+    {
+      "key": "s36",
+      "system": "Debugging Defective Visualizations",
+      "title": "Debugging Defective Visualizations: Empirical Insights Informing a Human-AI Co-Debugging System",
+      "venue": "CHI",
+      "year": 2026,
+      "doi": "10.1145/3772318.3791441",
+      "publication": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
+      "authors": "Shuyu Shen, Sirong Lu, Leixian Shen, Yuyu Luo",
+      "source": "https://arxiv.org/html/2412.07673v2",
+      "codes": {
+        "DP": [],
+        "VM": [
+          "G"
+        ],
+        "VT": [],
+        "PR": []
+      },
+      "evidence": "Users describe and annotate defective charts to guide LLM repair",
+      "bibtex": "@inproceedings{s36,\n  author = {Shen, Shuyu and Lu, Sirong and Shen, Leixian and Luo, Yuyu},\n  title = {{Debugging Defective Visualizations: Empirical Insights Informing a Human-AI Co-Debugging System}},\n  year = {2026},\n  isbn = {9798400722783},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3772318.3791441},\n  doi = {10.1145/3772318.3791441},\n  booktitle = {Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems},\n  articleno = {889},\n  numpages = {24},\n  location = {Barcelona, Spain},\n  series = {CHI '26},\n  pages = {889},\n}\n"
+    },
+    {
+      "key": "s38",
+      "system": "DiagLink",
+      "title": "DiagLink: A Dual-User Diagnostic Assistance System by Synergizing Experts with LLMs and Knowledge Graphs",
+      "venue": "CHI",
+      "year": 2026,
+      "doi": "10.1145/3772318.3791724",
+      "publication": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
+      "authors": "Zihan Zhou, Yinan Liu, Yuyang Xie, Bin Wang, Xiaochun Yang, Zezheng Feng",
+      "source": "https://arxiv.org/html/2601.20311v1",
+      "codes": {
+        "DP": [
+          "G"
+        ],
+        "VM": [],
+        "VT": [
+          "S"
+        ],
+        "PR": [
+          "P"
+        ]
+      },
+      "evidence": "Patients provide history while clinicians select diagnostic candidates and edit generated reasoning",
+      "bibtex": "@inproceedings{s38,\n  author = {Zhou, Zihan and Liu, Yinan and Xie, Yuyang and Wang, Bin and Yang, Xiaochun and Feng, Zezheng},\n  title = {{DiagLink: A Dual-User Diagnostic Assistance System by Synergizing Experts with LLMs and Knowledge Graphs}},\n  year = {2026},\n  isbn = {9798400722783},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3772318.3791724},\n  doi = {10.1145/3772318.3791724},\n  booktitle = {Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems},\n  articleno = {142},\n  numpages = {28},\n  location = {Barcelona, Spain},\n  series = {CHI '26},\n  pages = {142},\n}\n"
+    },
+    {
+      "key": "s39",
+      "system": "Evalet",
+      "title": "Evalet: Evaluating Large Language Models through Functional Fragmentation",
+      "venue": "CHI",
+      "year": 2026,
+      "doi": "10.1145/3772318.3790285",
+      "publication": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
+      "authors": "Tae Soo Kim, Heechan Lee, Yoonjoo Lee, Joseph Seering, Juho Kim",
+      "source": "https://arxiv.org/html/2509.11206v4",
+      "codes": {
+        "DP": [
+          "G",
+          "S",
+          "P"
+        ],
+        "VM": [],
+        "VT": [],
+        "PR": []
+      },
+      "evidence": "Evaluators supply criteria and examples then validate or correct model-assigned fragment ratings",
+      "bibtex": "@inproceedings{s39,\n  author = {Kim, Tae Soo and Lee, Heechan and Lee, Yoonjoo and Seering, Joseph and Kim, Juho},\n  title = {{Evalet: Evaluating Large Language Models through Functional Fragmentation}},\n  year = {2026},\n  isbn = {9798400722783},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3772318.3790285},\n  doi = {10.1145/3772318.3790285},\n  booktitle = {Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems},\n  articleno = {896},\n  numpages = {27},\n  location = {Barcelona, Spain},\n  series = {CHI '26},\n  pages = {896},\n}\n"
+    },
+    {
+      "key": "s40",
+      "system": "Facilitating Proactive and Reactive Guidance for Decision Making on the Web",
+      "title": "Facilitating Proactive and Reactive Guidance for Decision Making on the Web: A Design Probe with WebSeek",
+      "venue": "CHI",
+      "year": 2026,
+      "doi": "10.1145/3772318.3791945",
+      "publication": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
+      "authors": "Yanwei Huang, Arpit Narechania",
+      "source": "https://arxiv.org/html/2601.15100",
+      "codes": {
+        "DP": [
+          "G",
+          "S",
+          "P"
+        ],
+        "VM": [
+          "G",
+          "S",
+          "P"
+        ],
+        "VT": [],
+        "PR": []
+      },
+      "evidence": "Users prompt table and chart operations accept LLM suggestions and edit resulting instances",
+      "bibtex": "@inproceedings{s40,\n  author = {Huang, Yanwei and Narechania, Arpit},\n  title = {{Facilitating Proactive and Reactive Guidance for Decision Making on the Web: A Design Probe with WebSeek}},\n  year = {2026},\n  isbn = {9798400722783},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3772318.3791945},\n  doi = {10.1145/3772318.3791945},\n  booktitle = {Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems},\n  articleno = {800},\n  numpages = {20},\n  location = {Barcelona, Spain},\n  series = {CHI '26},\n  pages = {800},\n}\n"
+    },
+    {
+      "key": "s41",
+      "system": "GeoVisA11y",
+      "title": "GeoVisA11y: An AI-based Geovisualization Question-Answering System for Screen-Reader Users",
+      "venue": "CHI",
+      "year": 2026,
+      "doi": "10.1145/3772318.3790334",
+      "publication": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
+      "authors": "Chu Li, Rock Yuren Pang, Arnavi Chheda-Kothary, Ather Sharif, Henok Assalif, Jeffrey Heer, Jon E. Froehlich",
+      "source": "https://arxiv.org/html/2603.07446v1",
+      "codes": {
+        "DP": [],
+        "VM": [],
+        "VT": [
+          "G"
+        ],
+        "PR": []
+      },
+      "evidence": "Users issue spoken or typed navigation and spatial questions to the LLM",
+      "bibtex": "@inproceedings{s41,\n  author = {Li, Chu and Yuren Pang, Rock and Chheda-Kothary, Arnavi and Sharif, Ather and Assalif, Henok and Heer, Jeffrey and E. Froehlich, Jon},\n  title = {{GeoVisA11y: An AI-based Geovisualization Question-Answering System for Screen-Reader Users}},\n  year = {2026},\n  isbn = {9798400722783},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3772318.3790334},\n  doi = {10.1145/3772318.3790334},\n  booktitle = {Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems},\n  articleno = {463},\n  numpages = {17},\n  location = {Barcelona, Spain},\n  series = {CHI '26},\n  pages = {463},\n}\n"
+    },
+    {
+      "key": "s42",
+      "system": "Hey Dashboard!",
+      "title": "\"Hey Dashboard!\": Supporting Voice, Text, and Pointing Modalities in Dashboard Onboarding using Large Language Models",
+      "venue": "CHI",
+      "year": 2026,
+      "doi": "10.1145/3772318.3791766",
+      "publication": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
+      "authors": "Vaishali Dhanoa, Gabriela Molina Le\\'on, Eve Hoggan, Eduard Gröller, Marc Streit, Niklas Elmqvist",
+      "source": "https://arxiv.org/html/2510.12386v3",
+      "codes": {
+        "DP": [],
+        "VM": [],
+        "VT": [
+          "G"
+        ],
+        "PR": []
+      },
+      "evidence": "Users ask pointed dashboard questions with selected chart regions as context",
+      "bibtex": "@inproceedings{s42,\n  author = {Dhanoa, Vaishali and Molina Le{\\'o}n, Gabriela and Hoggan, Eve and Gr{\\\"o}ller, Eduard and Streit, Marc and Elmqvist, Niklas},\n  title = {{\"Hey Dashboard!\": Supporting Voice, Text, and Pointing Modalities in Dashboard Onboarding using Large Language Models}},\n  year = {2026},\n  isbn = {9798400722783},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3772318.3791766},\n  doi = {10.1145/3772318.3791766},\n  booktitle = {Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems},\n  articleno = {1},\n  numpages = {15},\n  location = {Barcelona, Spain},\n  series = {CHI '26},\n  pages = {1},\n}\n"
+    },
+    {
+      "key": "s44",
+      "system": "Lexara",
+      "title": "Lexara: A User-Centered Toolkit for Evaluating Large Language Models for Conversational Visual Analytics",
+      "venue": "CHI",
+      "year": 2026,
+      "doi": "10.1145/3772318.3790735",
+      "publication": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
+      "authors": "Srishti Palani, Vidya Setlur",
+      "source": "https://arxiv.org/pdf/2603.05832",
+      "codes": {
+        "DP": [],
+        "VM": [
+          "G",
+          "S",
+          "P"
+        ],
+        "VT": [],
+        "PR": []
+      },
+      "evidence": "Practitioners configure chart-output tests and override or rate LLM judgments of visual responses",
+      "bibtex": "@inproceedings{s44,\n  author = {Palani, Srishti and Setlur, Vidya},\n  title = {{Lexara: A User-Centered Toolkit for Evaluating Large Language Models for Conversational Visual Analytics}},\n  year = {2026},\n  isbn = {9798400722783},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3772318.3790735},\n  doi = {10.1145/3772318.3790735},\n  booktitle = {Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems},\n  articleno = {5},\n  numpages = {25},\n  location = {Barcelona, Spain},\n  series = {CHI '26},\n  pages = {5},\n}\n"
+    },
+    {
+      "key": "s46",
+      "system": "Vipera",
+      "title": "Vipera: Blending Visual and LLM-Driven Guidance for Systematic Auditing of Text-to-Image Generative AI",
+      "venue": "CHI",
+      "year": 2026,
+      "doi": "10.1145/3772318.3791942",
+      "publication": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
+      "authors": "Yanwei Huang, Wesley Hanwen Deng, Sijia Xiao, Motahhare Eslami, Jason I. Hong, Arpit Narechania, Adam Perer",
+      "source": "https://arxiv.org/html/2510.05742",
+      "codes": {
+        "DP": [
+          "G",
+          "S",
+          "P"
+        ],
+        "VM": [],
+        "VT": [],
+        "PR": []
+      },
+      "evidence": "Auditors guide labeling criteria choose LLM suggestions and correct generated labels",
+      "bibtex": "@inproceedings{s46,\n  author = {Huang, Yanwei and Hanwen Deng, Wesley and Xiao, Sijia and Eslami, Motahhare and Hong, Jason I. and Narechania, Arpit and Perer, Adam},\n  title = {{Vipera: Blending Visual and LLM-Driven Guidance for Systematic Auditing of Text-to-Image Generative AI}},\n  year = {2026},\n  isbn = {9798400722783},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3772318.3791942},\n  doi = {10.1145/3772318.3791942},\n  booktitle = {Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems},\n  articleno = {698},\n  numpages = {18},\n  location = {Barcelona, Spain},\n  series = {CHI '26},\n  pages = {698},\n}\n"
+    },
+    {
+      "key": "s47",
+      "system": "FathomGPT",
+      "title": "FathomGPT: A natural language interface for interactively exploring ocean science data",
+      "venue": "UIST",
+      "year": 2024,
+      "doi": "10.1145/3654777.3676462",
+      "publication": "Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology",
+      "authors": "Nabin Khanal, Chun Meng Yu, Jui-Cheng Chiu, Anav Chaudhary, Ziyue Zhang, Kakani Katija, Angus G. Forbes",
+      "source": "https://dx.doi.org/10.1145/3654777.3676462",
+      "codes": {
+        "DP": [
+          "G"
+        ],
+        "VM": [],
+        "VT": [
+          "G"
+        ],
+        "PR": []
+      },
+      "evidence": "Users query ocean data and issue follow-up prompts that revise analytical focus",
+      "bibtex": "@inproceedings{s47,\n  author = {Khanal, Nabin and Yu, Chun Meng and Chiu, Jui-Cheng and Chaudhary, Anav and Zhang, Ziyue and Katija, Kakani and Forbes, Angus G.},\n  title = {{FathomGPT: A natural language interface for interactively exploring ocean science data}},\n  year = {2024},\n  isbn = {9798400706288},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3654777.3676462},\n  doi = {10.1145/3654777.3676462},\n  booktitle = {Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology},\n  articleno = {95},\n  numpages = {15},\n  location = {Pittsburgh, PA, USA},\n  series = {UIST '24},\n  pages = {95},\n}\n"
+    },
+    {
+      "key": "s48",
+      "system": "Pluto",
+      "title": "Pluto: Authoring Semantically Aligned Text and Charts for Data-Driven Communication",
+      "venue": "IUI",
+      "year": 2025,
+      "doi": "10.1145/3708359.3712122",
+      "publication": "Proceedings of the 30th International Conference on Intelligent User Interfaces",
+      "authors": "Arjun Srinivasan, Vidya Setlur, Arvind Satyanarayan",
+      "source": "https://dx.doi.org/10.1145/3708359.3712122",
+      "codes": {
+        "DP": [],
+        "VM": [
+          "S",
+          "P"
+        ],
+        "VT": [],
+        "PR": [
+          "G",
+          "S",
+          "P",
+          "U"
+        ]
+      },
+      "evidence": "Authors accept or revise chart suggestions and co-write text with LLM recommendations",
+      "bibtex": "@inproceedings{s48,\n  author = {Srinivasan, Arjun and Setlur, Vidya and Satyanarayan, Arvind},\n  title = {{Pluto: Authoring Semantically Aligned Text and Charts for Data-Driven Communication}},\n  year = {2025},\n  isbn = {9798400713064},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3708359.3712122},\n  doi = {10.1145/3708359.3712122},\n  booktitle = {Proceedings of the 30th International Conference on Intelligent User Interfaces},\n  pages = {1123--1140},\n  numpages = {18},\n  location = {Cagliari, Italy},\n  series = {IUI '25},\n}\n"
+    },
+    {
+      "key": "s49",
+      "system": "AutoMA",
+      "title": "AutoMA: Automated Generation of Multi-level Annotations for Time Series Visualization",
+      "venue": "PacificVis",
+      "year": 2025,
+      "doi": "10.1109/PacificVis64226.2025.00014",
+      "publication": "2025 IEEE 18th Pacific Visualization Conference (PacificVis)",
+      "authors": "Qi Jiang, Guodao Sun, Tong Li, Jingwei Tang, Wang Xia, Yunchao Wang, Li Jiang, Ronghua Liang",
+      "source": "https://tongli97.github.io/files/AutoMA.pdf",
+      "codes": {
+        "DP": [],
+        "VM": [],
+        "VT": [],
+        "PR": [
+          "G",
+          "S",
+          "P"
+        ]
+      },
+      "evidence": "Users specify annotation scope and choose or directly edit LLM-generated time-series annotations",
+      "bibtex": "@inproceedings{s49,\n  author = {Jiang, Qi and Sun, Guodao and Li, Tong and Tang, Jingwei and Xia, Wang and Wang, Yunchao and Jiang, Li and Liang, Ronghua},\n  booktitle = {2025 IEEE 18th Pacific Visualization Conference (PacificVis)},\n  title = {{AutoMA: Automated Generation of Multi-level Annotations for Time Series Visualization}},\n  year = {2025},\n  pages = {80-90},\n  doi = {10.1109/PacificVis64226.2025.00014},\n  url = {https://doi.org/10.1109/PacificVis64226.2025.00014},\n}\n"
+    },
+    {
+      "key": "s50",
+      "system": "GreenMine",
+      "title": "Visual Text Mining with Progressive Taxonomy Construction for Environmental Studies",
+      "venue": "PacificVis",
+      "year": 2025,
+      "doi": "10.1109/PacificVis64226.2025.00037",
+      "publication": "2025 IEEE 18th Pacific Visualization Conference (PacificVis)",
+      "authors": "Sam Yu-Te Lee, Cheng-Wei Hung, Mei-Hua Yuan, Kwan-Liu Ma",
+      "source": "https://arxiv.org/html/2502.05731v1",
+      "codes": {
+        "DP": [
+          "G",
+          "S",
+          "P",
+          "I"
+        ],
+        "VM": [],
+        "VT": [],
+        "PR": []
+      },
+      "evidence": "Experts revise LLM-mined taxonomy candidates and rerun extraction with refined definitions",
+      "bibtex": "@inproceedings{s50,\n  author = {Lee, Sam Yu-Te and Hung, Cheng-Wei and Yuan, Mei-Hua and Ma, Kwan-Liu},\n  booktitle = {2025 IEEE 18th Pacific Visualization Conference (PacificVis)},\n  title = {{Visual Text Mining with Progressive Taxonomy Construction for Environmental Studies}},\n  year = {2025},\n  pages = {307-317},\n  doi = {10.1109/PacificVis64226.2025.00037},\n  url = {https://doi.org/10.1109/PacificVis64226.2025.00037},\n}\n"
+    },
+    {
+      "key": "s51",
+      "system": "POEM",
+      "title": "POEM: Interactive Prompt Optimization for Enhancing Multimodal Reasoning of Large Language Models",
+      "venue": "PacificVis",
+      "year": 2025,
+      "doi": "10.1109/PacificVis64226.2025.00010",
+      "publication": "2025 IEEE 18th Pacific Visualization Conference (PacificVis)",
+      "authors": "Jianben He, Xingbo Wang, Shiyi Liu, Guande Wu, Claudio Silva, Huamin Qu",
+      "source": "https://arxiv.org/html/2406.03843v3",
+      "codes": {
+        "DP": [],
+        "VM": [],
+        "VT": [
+          "G",
+          "S",
+          "P",
+          "I"
+        ],
+        "PR": []
+      },
+      "evidence": "Users select model-suggested examples and edit generated principles before renewed model evaluation",
+      "bibtex": "@inproceedings{s51,\n  author = {He, Jianben and Wang, Xingbo and Liu, Shiyi and Wu, Guande and Silva, Claudio and Qu, Huamin},\n  booktitle = {2025 IEEE 18th Pacific Visualization Conference (PacificVis)},\n  title = {{POEM: Interactive Prompt Optimization for Enhancing Multimodal Reasoning of Large Language Models}},\n  year = {2025},\n  pages = {36-46},\n  doi = {10.1109/PacificVis64226.2025.00010},\n  url = {https://doi.org/10.1109/PacificVis64226.2025.00010},\n}\n"
+    },
+    {
+      "key": "s53",
+      "system": "Athanor",
+      "title": "From Static to Interactive: Authoring Interactive Visualizations via Natural Language",
+      "venue": "PacificVis",
+      "year": 2026,
+      "doi": "10.1109/PacificVis68791.2026.00018",
+      "publication": "2026 IEEE 19th Pacific Visualization Conference (PacificVis)",
+      "authors": "Can Liu, Jaeuk Lee, Tianhe Chen, Zhibang Jiang, Xiaolin Wen, Yong Wang",
+      "source": "https://arxiv.org/html/2601.17736v2",
+      "codes": {
+        "DP": [],
+        "VM": [
+          "G",
+          "S"
+        ],
+        "VT": [
+          "G",
+          "S"
+        ],
+        "PR": []
+      },
+      "evidence": "Creators specify chart-changing or view-changing interactions and confirm proposed modifications",
+      "bibtex": "@inproceedings{s53,\n  author = {Liu, Can and Lee, Jaeuk and Chen, Tianhe and Jiang, Zhibang and Wen, Xiaolin and Wang, Yong},\n  booktitle = {2026 IEEE 19th Pacific Visualization Conference (PacificVis)},\n  title = {{From Static to Interactive: Authoring Interactive Visualizations via Natural Language}},\n  year = {2026},\n  pages = {113-123},\n  doi = {10.1109/PacificVis68791.2026.00018},\n  url = {https://doi.org/10.1109/PacificVis68791.2026.00018},\n}\n"
+    },
+    {
+      "key": "s54",
+      "system": "InfoCIR",
+      "title": "InfoCIR: Multimedia Analysis for Composed Image Retrieval",
+      "venue": "PacificVis",
+      "year": 2026,
+      "doi": "10.1109/PacificVis68791.2026.00041",
+      "publication": "2026 IEEE 19th Pacific Visualization Conference (PacificVis)",
+      "authors": "Ioannis Dravilas, Ioannis Kapetangeorgis, Anastasios Latsoudis, Conor McCarthy, Gonçalo Marcelino, Marcel Worring",
+      "source": "https://arxiv.org/html/2602.13402",
+      "codes": {
+        "DP": [],
+        "VM": [],
+        "VT": [
+          "G",
+          "S"
+        ],
+        "PR": []
+      },
+      "evidence": "Users prompt retrieval and choose relevant model-returned image or prompt candidates",
+      "bibtex": "@inproceedings{s54,\n  author = {Dravilas, Ioannis and Kapetangeorgis, Ioannis and Latsoudis, Anastasios and McCarthy, Conor and Marcelino, Gonçalo and Worring, Marcel},\n  booktitle = {2026 IEEE 19th Pacific Visualization Conference (PacificVis)},\n  title = {{InfoCIR: Multimedia Analysis for Composed Image Retrieval}},\n  year = {2026},\n  pages = {324-334},\n  doi = {10.1109/PacificVis68791.2026.00041},\n  url = {https://doi.org/10.1109/PacificVis68791.2026.00041},\n}\n"
+    },
+    {
+      "key": "s55",
+      "system": "Intelligent Drill-Down",
+      "title": "Intelligent Drill-Down: Large Language Model-Driven Drill-Down Technique for Human-AI Collaborative Visual Exploration",
+      "venue": "PacificVis",
+      "year": 2026,
+      "doi": "10.1109/PacificVis68791.2026.00042",
+      "publication": "2026 IEEE 19th Pacific Visualization Conference (PacificVis)",
+      "authors": "Zhijun Zheng, Tian Qiu, Yuheng Zhao, Siming Chen",
+      "source": "https://arxiv.org/html/2604.17002v1",
+      "codes": {
+        "DP": [],
+        "VM": [],
+        "VT": [
+          "G",
+          "S"
+        ],
+        "PR": []
+      },
+      "evidence": "Users state drill-down intent and choose recommended dimensions or branches",
+      "bibtex": "@inproceedings{s55,\n  author = {Zheng, Zhijun and Qiu, Tian and Zhao, Yuheng and Chen, Siming},\n  booktitle = {2026 IEEE 19th Pacific Visualization Conference (PacificVis)},\n  title = {{Intelligent Drill-Down: Large Language Model-Driven Drill-Down Technique for Human-AI Collaborative Visual Exploration}},\n  year = {2026},\n  pages = {335-345},\n  doi = {10.1109/PacificVis68791.2026.00042},\n  url = {https://doi.org/10.1109/PacificVis68791.2026.00042},\n}\n"
+    },
+    {
+      "key": "s56",
+      "system": "NotebookRAG",
+      "title": "NotebookRAG: Retrieving Multiple Notebooks to Augment the Generation of EDA Notebooks for Crowd-Wisdom",
+      "venue": "PacificVis",
+      "year": 2026,
+      "doi": "10.1109/PacificVis68791.2026.00043",
+      "publication": "2026 IEEE 19th Pacific Visualization Conference (PacificVis)",
+      "authors": "Yi Shan, Yixuan He, Zekai Shao, Kai Xu, Siming Chen",
+      "source": "https://arxiv.org/html/2602.17215",
+      "codes": {
+        "DP": [
+          "G"
+        ],
+        "VM": [],
+        "VT": [],
+        "PR": []
+      },
+      "evidence": "Users provide datasets and EDA intent for automated notebook planning and generation",
+      "bibtex": "@inproceedings{s56,\n  author = {Shan, Yi and He, Yixuan and Shao, Zekai and Xu, Kai and Chen, Siming},\n  booktitle = {2026 IEEE 19th Pacific Visualization Conference (PacificVis)},\n  title = {{NotebookRAG: Retrieving Multiple Notebooks to Augment the Generation of EDA Notebooks for Crowd-Wisdom}},\n  year = {2026},\n  pages = {346-356},\n  doi = {10.1109/PacificVis68791.2026.00043},\n  url = {https://doi.org/10.1109/PacificVis68791.2026.00043},\n}\n"
+    },
+    {
+      "key": "s57",
+      "system": "StoryLensEdu",
+      "title": "StoryLensEdu: Personalized Learning Report Generation through Narrative-Driven Multi-Agent Systems",
+      "venue": "PacificVis",
+      "year": 2026,
+      "doi": "10.1109/PacificVis68791.2026.00039",
+      "publication": "2026 IEEE 19th Pacific Visualization Conference (PacificVis)",
+      "authors": "Leixian Shen, Yan Luo, Rui Sheng, Yujia He, Haotian Li, Leni Yang, Huamin Qu",
+      "source": "https://arxiv.org/html/2602.17067v1",
+      "codes": {
+        "DP": [],
+        "VM": [],
+        "VT": [],
+        "PR": [
+          "G"
+        ]
+      },
+      "evidence": "Students select report material as context and ask grounded follow-up questions",
+      "bibtex": "@inproceedings{s57,\n  author = {Shen, Leixian and Luo, Yan and Sheng, Rui and He, Yujia and Li, Haotian and Yang, Leni and Qu, Huamin},\n  booktitle = {2026 IEEE 19th Pacific Visualization Conference (PacificVis)},\n  title = {{StoryLensEdu: Personalized Learning Report Generation through Narrative-Driven Multi-Agent Systems}},\n  year = {2026},\n  pages = {302-312},\n  doi = {10.1109/PacificVis68791.2026.00039},\n  url = {https://doi.org/10.1109/PacificVis68791.2026.00039},\n}\n"
+    }
+  ],
+  "excluded": [
+    {
+      "key": "s12",
+      "system": "Illuminating LLM Coding Agents",
+      "title": "Illuminating LLM Coding Agents: Visual Analytics for Deeper Understanding and Enhancement",
+      "venue": "TVCG",
+      "year": 2026,
+      "doi": "10.1109/TVCG.2026.3694444",
+      "publication": "IEEE Transactions on Visualization and Computer Graphics",
+      "authors": "Junpeng Wang, Yuzhong Chen, Menghai Pan, Chin-Chia Michael Yeh, Mahashweta Das",
+      "source": "https://arxiv.org/html/2508.12555",
+      "codes": null,
+      "evidence": "",
+      "bibtex": "@article{s12,\n  author = {Wang, Junpeng and Chen, Yuzhong and Pan, Menghai and Yeh, Chin-Chia Michael and Das, Mahashweta},\n  journal = {IEEE Transactions on Visualization and Computer Graphics},\n  title = {{Illuminating LLM Coding Agents: Visual Analytics for Deeper Understanding and Enhancement}},\n  year = {2026},\n  volume = {32},\n  number = {6},\n  pages = {4796-4806},\n  doi = {10.1109/TVCG.2026.3694444},\n  url = {https://doi.org/10.1109/TVCG.2026.3694444},\n}\n"
+    },
+    {
+      "key": "s13",
+      "system": "KEditVis",
+      "title": "KEditVis: A Visual Analytics System for Knowledge Editing of Large Language Models",
+      "venue": "TVCG",
+      "year": 2026,
+      "doi": "10.1109/TVCG.2026.3694436",
+      "publication": "IEEE Transactions on Visualization and Computer Graphics",
+      "authors": "Zhenning Chen, Hanbei Zhan, Yanwei Huang, Xin Wu, Dazhen Deng, Di Weng, Yingcai Wu",
+      "source": "https://arxiv.org/html/2603.29689",
+      "codes": null,
+      "evidence": "",
+      "bibtex": "@article{s13,\n  author = {Chen, Zhenning and Zhan, Hanbei and Huang, Yanwei and Wu, Xin and Deng, Dazhen and Weng, Di and Wu, Yingcai},\n  journal = {IEEE Transactions on Visualization and Computer Graphics},\n  title = {{KEditVis: A Visual Analytics System for Knowledge Editing of Large Language Models}},\n  year = {2026},\n  volume = {32},\n  number = {6},\n  pages = {4818-4828},\n  doi = {10.1109/TVCG.2026.3694436},\n  url = {https://doi.org/10.1109/TVCG.2026.3694436},\n}\n"
+    },
+    {
+      "key": "s27",
+      "system": "ReasonDiag",
+      "title": "When the Chain Breaks: Interactive Diagnosis of LLM Chain-of-Thought Reasoning Errors",
+      "venue": "EuroVis",
+      "year": 2026,
+      "doi": "10.1111/cgf.70439",
+      "publication": "Computer Graphics Forum",
+      "authors": "Shiwei Chen, Niruthikka Sritharan, Xiaolin Wen, Chenxi Zhang, Xingbo Wang, Yong Wang",
+      "source": "https://diglib.eg.org/items/b43bfbab-098f-4e8e-a611-218bcb2b93d5",
+      "codes": null,
+      "evidence": "",
+      "bibtex": "@article{s27,\n  journal = {Computer Graphics Forum},\n  title = {{When the Chain Breaks: Interactive Diagnosis of LLM Chain-of-Thought Reasoning Errors}},\n  author = {Chen, Shiwei and Sritharan, Niruthikka and Wen, Xiaolin and Zhang, Chenxi and Wang, Xingbo and Wang, Yong},\n  year = {2026},\n  publisher = {The Eurographics Association and John Wiley \\& Sons Ltd.},\n  issn = {1467-8659},\n  doi = {10.1111/cgf.70439},\n  pages = {e70439},\n  url = {https://doi.org/10.1111/cgf.70439},\n}\n"
+    },
+    {
+      "key": "s28",
+      "system": "ReTrace",
+      "title": "RETRACE: Interactive Visualizations for Reasoning Traces of Large Reasoning Models",
+      "venue": "EuroVis",
+      "year": 2026,
+      "doi": "10.1111/cgf.70452",
+      "publication": "Computer Graphics Forum",
+      "authors": "L. Felder, J. Miller, M. Wallinger, S. G. Kobourov, C. Chen",
+      "source": "https://diglib.eg.org/items/4d111b21-28b3-46ad-81cb-fac1b2b19297",
+      "codes": null,
+      "evidence": "",
+      "bibtex": "@article{s28,\n  journal = {Computer Graphics Forum},\n  title = {{RETRACE: Interactive Visualizations for Reasoning Traces of Large Reasoning Models}},\n  author = {Felder, L. and Miller, J. and Wallinger, M. and Kobourov, S. G. and Chen, C.},\n  year = {2026},\n  publisher = {The Eurographics Association and John Wiley \\& Sons Ltd.},\n  issn = {1467-8659},\n  doi = {10.1111/cgf.70452},\n  pages = {e70452},\n  url = {https://doi.org/10.1111/cgf.70452},\n}\n"
+    },
+    {
+      "key": "s35",
+      "system": "Augmenting Clinical Decision-Making with an Interactive and Interpretable AI Copilot",
+      "title": "Augmenting Clinical Decision-Making with an Interactive and Interpretable AI Copilot: A Real-World User Study with Clinicians in Nephrology and Obstetrics",
+      "venue": "CHI",
+      "year": 2026,
+      "doi": "10.1145/3772318.3791458",
+      "publication": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
+      "authors": "Yinghao Zhu, Dehao Sui, Zixiang Wang, Xuning Hu, Lei Gu, Yifan Qi, Tianchen Wu, Ling Wang, Yuan Wei, Wen Tang, Zhihan Cui, Yasha Wang, Lequan Yu, Ewen M Harrison, Junyi Gao, Liantao Ma",
+      "source": "https://arxiv.org/html/2602.00726",
+      "codes": null,
+      "evidence": "",
+      "bibtex": "@inproceedings{s35,\n  author = {Zhu, Yinghao and Sui, Dehao and Wang, Zixiang and Hu, Xuning and Gu, Lei and Qi, Yifan and Wu, Tianchen and Wang, Ling and Wei, Yuan and Tang, Wen and Cui, Zhihan and Wang, Yasha and Yu, Lequan and Harrison, Ewen M and Gao, Junyi and Ma, Liantao},\n  title = {{Augmenting Clinical Decision-Making with an Interactive and Interpretable AI Copilot: A Real-World User Study with Clinicians in Nephrology and Obstetrics}},\n  year = {2026},\n  isbn = {9798400722783},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3772318.3791458},\n  doi = {10.1145/3772318.3791458},\n  booktitle = {Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems},\n  articleno = {22},\n  numpages = {26},\n  location = {Barcelona, Spain},\n  series = {CHI '26},\n  pages = {22},\n}\n"
+    },
+    {
+      "key": "s37",
+      "system": "Designing Multi-Robot Ground Video Sensemaking with Public Safety Professionals",
+      "title": "Designing Multi-Robot Ground Video Sensemaking with Public Safety Professionals",
+      "venue": "CHI",
+      "year": 2026,
+      "doi": "10.1145/3772318.3790679",
+      "publication": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
+      "authors": "Puqi Zhou, Ali Asgarov, Aafiya Hussain, Wonjoon Park, Amit Paudyal, Sameep Shrestha, Chia-Wei Tang, Michael Lighthiser, Michael Hieb, Xuesu Xiao, Chris Thomas, Sungsoo Ray Hong",
+      "source": "https://arxiv.org/html/2602.08882v1",
+      "codes": null,
+      "evidence": "",
+      "bibtex": "@inproceedings{s37,\n  author = {Zhou, Puqi and Asgarov, Ali and Hussain, Aafiya and Park, Wonjoon and Paudyal, Amit and Shrestha, Sameep and Tang, Chia-Wei and Lighthiser, Michael and Hieb, Michael and Xiao, Xuesu and Thomas, Chris and Hong, Sungsoo Ray},\n  title = {{Designing Multi-Robot Ground Video Sensemaking with Public Safety Professionals}},\n  year = {2026},\n  isbn = {9798400722783},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3772318.3790679},\n  doi = {10.1145/3772318.3790679},\n  booktitle = {Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems},\n  articleno = {1583},\n  numpages = {22},\n  location = {Barcelona, Spain},\n  series = {CHI '26},\n  pages = {1583},\n}\n"
+    },
+    {
+      "key": "s43",
+      "system": "Human-AI Interaction for Time-Critical Sensemaking in Missing Persons Investigations",
+      "title": "Human-AI Interaction for Time-Critical Sensemaking in Missing Persons Investigations",
+      "venue": "CHI",
+      "year": 2026,
+      "doi": "10.1145/3772318.3793148",
+      "publication": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
+      "authors": "Pola Zuzanna Labedzka, Dorian Peters, John J Dudley, Miri Zilka",
+      "source": "https://doi.org/10.1145/3772318.3793148",
+      "codes": null,
+      "evidence": "",
+      "bibtex": "@inproceedings{s43,\n  author = {Zuzanna Labedzka, Pola and Peters, Dorian and J Dudley, John and Zilka, Miri},\n  title = {{Human-AI Interaction for Time-Critical Sensemaking in Missing Persons Investigations}},\n  year = {2026},\n  isbn = {9798400722783},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3772318.3793148},\n  doi = {10.1145/3772318.3793148},\n  booktitle = {Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems},\n  articleno = {395},\n  numpages = {15},\n  location = {Barcelona, Spain},\n  series = {CHI '26},\n  pages = {395},\n}\n"
+    },
+    {
+      "key": "s45",
+      "system": "MIND",
+      "title": "MIND: Empowering Mental Health Clinicians with Multimodal Data Insights through a Narrative Dashboard",
+      "venue": "CHI",
+      "year": 2026,
+      "doi": "10.1145/3772318.3790529",
+      "publication": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
+      "authors": "Ruishi Zou, Shiyu Xu, Margaret E Morris, Jihan Ryu, Timothy D. Becker, Nicholas Allen, Anne Marie Albano, Randy Auerbach, Dan Adler, Varun Mishra, Lace M. Padilla, Dakuo Wang, Ryan Sultan, Xuhai Xu",
+      "source": "https://arxiv.org/pdf/2601.14641",
+      "codes": null,
+      "evidence": "",
+      "bibtex": "@inproceedings{s45,\n  author = {Zou, Ruishi and Xu, Shiyu and Morris, Margaret E and Ryu, Jihan and Becker, Timothy D. and Allen, Nicholas and Albano, Anne Marie and Auerbach, Randy and Adler, Dan and Mishra, Varun and Padilla, Lace M. and Wang, Dakuo and Sultan, Ryan and Xu, Xuhai},\n  title = {{MIND: Empowering Mental Health Clinicians with Multimodal Data Insights through a Narrative Dashboard}},\n  year = {2026},\n  isbn = {9798400722783},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3772318.3790529},\n  doi = {10.1145/3772318.3790529},\n  booktitle = {Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems},\n  articleno = {27},\n  numpages = {26},\n  location = {Barcelona, Spain},\n  series = {CHI '26},\n  pages = {27},\n}\n"
+    },
+    {
+      "key": "s52",
+      "system": "XGraphRAG",
+      "title": "XGraphRAG: Interactive Visual Analysis for Graph-based Retrieval-Augmented Generation",
+      "venue": "PacificVis",
+      "year": 2025,
+      "doi": "10.1109/PacificVis64226.2025.00005",
+      "publication": "2025 IEEE 18th Pacific Visualization Conference (PacificVis)",
+      "authors": "Ke Wang, Bo Pan, Yingchaojie Feng, Yuwei Wu, Jieyi Chen, Minfeng Zhu, Wei Chen",
+      "source": "https://arxiv.org/html/2506.13782v1",
+      "codes": null,
+      "evidence": "",
+      "bibtex": "@inproceedings{s52,\n  author = {Wang, Ke and Pan, Bo and Feng, Yingchaojie and Wu, Yuwei and Chen, Jieyi and Zhu, Minfeng and Chen, Wei},\n  booktitle = {2025 IEEE 18th Pacific Visualization Conference (PacificVis)},\n  title = {{XGraphRAG: Interactive Visual Analysis for Graph-based Retrieval-Augmented Generation}},\n  year = {2025},\n  pages = {1-11},\n  doi = {10.1109/PacificVis64226.2025.00005},\n  url = {https://doi.org/10.1109/PacificVis64226.2025.00005},\n}\n"
+    }
+  ],
+  "codebook": {
+    "stages": [
+      {
+        "code": "DP",
+        "name": "Data processing",
+        "definition": "Acquiring, extracting, cleaning, restructuring, or computing data before visual encoding. Selecting a subset within an existing view alone does not qualify."
+      },
+      {
+        "code": "VM",
+        "name": "Visual mapping",
+        "definition": "Creating or revising mappings from data to marks, channels, or chart structures. Inspecting or annotating a chart alone does not qualify."
+      },
+      {
+        "code": "VT",
+        "name": "View transformation",
+        "definition": "Changing the focus, subset, granularity, arrangement, or navigational state of a view for exploration. Producing a new encoding is visual mapping instead."
+      },
+      {
+        "code": "PR",
+        "name": "Presentation",
+        "definition": "Externalizing an interpretation through explanatory text, annotations, summaries, or reports. Merely displaying or exporting a chart, or authoring a question about one, does not qualify."
+      }
+    ],
+    "modes": [
+      {
+        "code": "G",
+        "name": "Guiding",
+        "definition": "Providing a goal, prompt, example, constraint, or selected input context for the model’s next output. The user does not directly edit a model-produced artifact in this action."
+      },
+      {
+        "code": "S",
+        "name": "Selecting or rating",
+        "definition": "Choosing, accepting, rejecting, or evaluating a model-produced candidate or suggestion. Selecting source data or navigating a view is insufficient."
+      },
+      {
+        "code": "P",
+        "name": "Post-editing",
+        "definition": "Directly changing a model-produced artifact, with the edit remaining local or final rather than becoming input for model continuation. Asking the model to make the change is guiding."
+      },
+      {
+        "code": "I",
+        "name": "Interactive editing",
+        "definition": "Directly revising a model-produced draft or identified part, after which the system feeds that revision to the model and the model continues or regenerates from it. A new question or retry without editing the draft is insufficient."
+      },
+      {
+        "code": "U",
+        "name": "User-led presentation authoring",
+        "definition": "Retaining authorship of an analytic explanation, report, dashboard text, data story, or text–visual account while the model suggests or continues material. An automatically drafted report without user-led composition is excluded. U applies only to PR."
+      }
+    ],
+    "rules": [
+      "The crosswalk records documented active intervention targeting an LLM-related artifact, rather than all capabilities reported by a system.",
+      "An action is assigned only to the stage it directly targets; an automatic downstream result does not inherit the action’s mode.",
+      "A paper contributes at most once to a stage–mode cell. Distinct documented actions may place a paper in multiple cells.",
+      "Stage and mode totals count distinct papers. They are not sums of the corresponding cells.",
+      "U outside PR is structurally inapplicable (NA), rather than an observed zero.",
+      "An empty crosswalk field means no matching action is recorded. It does not prove a capability is absent from the implementation.",
+      "Evidence strings are supplied coding summaries, not verbatim quotations. Section/page locators are not supplied in the source CSV.",
+      "The explorer uses consensus labels; independent coder labels are not available here and agreement coefficients are not recalculated."
+    ]
+  },
+  "statistics": {
+    "total": 46,
+    "cells": {
+      "DP": {
+        "G": 15,
+        "S": 7,
+        "P": 7,
+        "I": 3,
+        "U": null
+      },
+      "VM": {
+        "G": 18,
+        "S": 8,
+        "P": 12,
+        "I": 7,
+        "U": null
+      },
+      "VT": {
+        "G": 18,
+        "S": 8,
+        "P": 2,
+        "I": 1,
+        "U": null
+      },
+      "PR": {
+        "G": 14,
+        "S": 4,
+        "P": 9,
+        "I": 2,
+        "U": 4
+      }
+    },
+    "stages": {
+      "DP": 15,
+      "VM": 20,
+      "VT": 20,
+      "PR": 16
+    },
+    "modes": {
+      "G": 46,
+      "S": 21,
+      "P": 24,
+      "I": 11,
+      "U": 4
+    },
+    "single": 26,
+    "multi": 20,
+    "venues": {
+      "TVCG": 17,
+      "EuroVis": 7,
+      "CHI": 12,
+      "UIST": 1,
+      "IUI": 1,
+      "PacificVis": 8
+    }
+  }
+}

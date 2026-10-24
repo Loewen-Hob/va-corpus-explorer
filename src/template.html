@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Explore the 46-paper corpus and action-level coding for User Intervention in Human–LLM Collaborative Visual Analytics: A Survey.">
+<meta name="color-scheme" content="light">
+<title>Corpus & Coding Explorer · Human–LLM Visual Analytics</title>
+<style>__STYLE__</style>
+</head>
+<body>
+<a href="#content" class="skip-link">Skip to explorer</a>
+<header class="topbar">
+  <a class="brand" href="#view=corpus" aria-label="Corpus explorer home"><span class="brand-symbol" aria-hidden="true">VA<span>↗</span></span><span>HUMAN–LLM<br><strong>VISUAL ANALYTICS</strong></span></a>
+  <nav aria-label="Main navigation" class="nav" id="nav">
+    <button type="button" data-view="corpus" aria-current="page">Corpus <span>46</span></button>
+    <button type="button" data-view="crosswalk">Crosswalk</button>
+    <button type="button" data-view="codebook">Codebook</button>
+    <button type="button" data-view="downloads">Data & methods</button>
+  </nav>
+  <a class="header-download" href="#view=downloads">Download data <span aria-hidden="true">↗</span></a>
+</header>
+<main id="content">
+  <section class="hero" aria-labelledby="page-title">
+    <div class="hero-copy"><p class="eyebrow">THE SURVEY COLLECTION <span>2022—2026</span></p>
+    <h1 id="page-title">Human–LLM collaboration<br>in visual analytics.</h1>
+    <p class="intro">Explore the literature. Trace the user actions. Inspect the coding.</p>
+    <p class="paper-title">Companion to <em>User Intervention in Human–LLM Collaborative Visual Analytics: A Survey</em></p></div>
+    <div class="hero-aside" aria-label="Corpus overview">
+      <div><strong>46</strong><span>included papers</span></div><div><strong>6</strong><span>venue groups</span></div>
+      <div><strong>4 × 5</strong><span>stages × modes</span></div><div><strong>20</strong><span>papers across stages</span></div>
+      <p>January 2022 — September 2026</p>
+    </div>
+  </section>
+  <div class="workspace">
+
+  <section class="filter-section" id="filter-section" aria-label="Filter the corpus"><div class="filter-heading"><strong>Refine collection</strong><span>46 records</span></div>
+    <div class="search-field"><label for="query">Search papers</label><div class="search-input"><span aria-hidden="true">⌕</span><input id="query" type="search" placeholder="Title, system, author, DOI…" autocomplete="off"></div></div>
+    <div class="filter-field"><label for="venue">Venue</label><select id="venue"><option value="">All venues</option></select></div>
+    <div class="filter-field"><label for="year">Year</label><select id="year"><option value="">All years</option></select></div>
+    <div class="filter-field action-filter"><label for="stage">VA stage</label><select id="stage"><option value="">All stages</option></select></div>
+    <div class="filter-field action-filter"><label for="mode">Interaction mode</label><select id="mode"><option value="">All modes</option></select></div>
+    <button type="button" class="reset-button" id="reset">Clear all filters</button><div class="sidebar-note"><span>HOW TO EXPLORE</span><p>Choose a paper to inspect its evidence and stage–mode codes.</p><a href="#view=crosswalk">Explore the coding matrix →</a></div>
+  </section>
+
+  <section id="corpus-view" class="view" aria-labelledby="corpus-heading">
+    <div class="section-heading"><div><p class="eyebrow">THE COLLECTION</p><h2 id="corpus-heading">Browse the corpus</h2></div><button class="button secondary" id="export-filtered">Export CSV <span aria-hidden="true">↓</span></button></div>
+    <div class="results-line"><p id="result-count" role="status" aria-live="polite"></p><p>Select a record to view evidence →</p></div>
+    <div id="active-filters" class="active-filters"></div>
+    <div class="corpus-layout">
+      <div class="paper-list-region"><div id="paper-rows" class="paper-cards" aria-label="Included papers"></div><div id="empty-state" hidden><strong>No matching papers</strong><p>Try another term or clear a filter.</p><button class="button" id="empty-reset">Reset filters</button></div></div>
+      <aside class="detail-panel" id="paper-detail" aria-label="Selected paper"></aside>
+    </div>
+    <p class="footnote">“—” means no matching active intervention is recorded at that stage. It does not establish that a system has no functionality there. <a href="#view=codebook">Read the coding rules →</a></p>
+  </section>
+
+  <section id="crosswalk-view" class="view" aria-labelledby="crosswalk-heading" hidden>
+    <div class="section-heading"><div><p class="eyebrow">02 / ACTION-LEVEL CROSSWALK</p><h2 id="crosswalk-heading">Explore the coding matrix</h2></div><span class="context-chip" id="heatmap-context"></span></div>
+    <p class="section-intro">Select a stage–mode cell to see the papers behind it. Counts follow the current search, venue, and year filters.</p>
+    <div class="crosswalk-layout"><div class="heatmap-panel"><div id="heatmap" class="table-scroll"></div><p class="footnote">A paper counts once per cell. Stage and mode totals count distinct papers, so they are not sums of adjacent cells. <strong>NA</strong> marks U outside presentation, which is inapplicable by definition.</p></div><aside class="pattern-aside"><h3>Intervention across stages</h3><div id="stage-bars"></div><div class="pattern-stats" id="pattern-stats"></div><p class="footnote">Multiple stages do not by themselves demonstrate a continuous handoff between stages.</p></aside></div>
+    <div class="venue-section"><h3>Publication venues</h3><p>EuroVis papers are grouped by conference; their formal journal venue is <em>Computer Graphics Forum</em>.</p><div id="venue-bars" class="venue-bars"></div></div>
+  </section>
+
+  <section id="codebook-view" class="view" aria-labelledby="codebook-heading" hidden>
+    <div class="section-heading"><div><p class="eyebrow">03 / OPERATIONAL DEFINITIONS</p><h2 id="codebook-heading">Coding framework</h2></div></div>
+    <p class="section-intro">The stages locate an intervention; the modes describe the user action. Codes are multi-label and modes are not an ordinal scale.</p>
+    <h3 class="group-heading">Four visual analytics stages</h3><div id="stage-definitions" class="definition-grid"></div>
+    <h3 class="group-heading">Five output-directed interaction modes</h3><div id="mode-definitions" class="definition-grid"></div>
+    <div class="method-note"><h3>Read the consequence of the action.</h3><p>Post-editing (P) changes a model-produced artifact locally or finally. Interactive editing (I) additionally requires the model to continue or regenerate from that direct edit. A follow-up prompt alone is guiding (G). User-led presentation authoring (U) applies only to PR.</p><p>The four-stage framework follows <a href="https://arxiv.org/abs/2604.15813" target="_blank" rel="noopener noreferrer">Luo et al.</a>; the interaction modes adapt <a href="https://aclanthology.org/2022.naacl-main.33/" target="_blank" rel="noopener noreferrer">Cheng et al. (NAACL 2022)</a> to visual analytics.</p></div>
+  </section>
+
+  <section id="downloads-view" class="view" aria-labelledby="downloads-heading" hidden>
+    <div class="section-heading"><div><p class="eyebrow">04 / DATA & METHODS</p><h2 id="downloads-heading">Data & methods</h2></div><span class="context-chip">Snapshot v1.0.0</span></div>
+    <p class="section-intro">Download the records behind this explorer. The action-level crosswalk is the source for every stage–mode count shown here.</p>
+    <div id="download-list" class="download-list"></div>
+    <div class="methods-columns"><section><h3>Scope & screening</h3><p>55 candidate papers within January 2022–September 2026 were screened across TVCG, EuroVis, CHI, UIST, IUI, and IEEE PacificVis. The final corpus includes 46 systems reporting an active user action directed at an LLM-related artifact; 9 inspection-oriented candidates were excluded.</p><p>The 61-entry bibliography also contains excluded candidates and background literature. Its full venue totals are not the 46-paper corpus totals.</p></section><section><h3>Evidence & reproducibility</h3><p>Evidence notes reproduce the summaries supplied in the action-level crosswalk. They are coding summaries, not verbatim quotations. Full-text section/page locators are not supplied in the source CSV.</p><p>Statistics are computed from the consensus crosswalk. Independent coder labels are not included; this explorer does not recalculate agreement coefficients.</p><p>Formal citation metadata is read from the verified bibliography. Data Formulator uses the final 2024 TVCG issue year.</p></section></div>
+    <details class="excluded-section"><summary>Screening audit: 9 excluded candidates</summary><p>These records are excluded from the 46-paper corpus and from all intervention counts. The shared screening reason is the absence of a documented active output-directed action matching the coding scheme; paper-specific exclusion passages are not provided in the supplied CSV.</p><div class="table-scroll"><table class="excluded-table"><thead><tr><th scope="col">Candidate</th><th scope="col">Venue</th><th scope="col">Year</th><th scope="col">Publication</th></tr></thead><tbody id="excluded-rows"></tbody></table></div></details>
+  </section>
+  </div>
+</main>
+<footer><div><strong>Corpus & Coding Explorer</strong><p>Companion to <em>User Intervention in Human–LLM Collaborative Visual Analytics: A Survey</em></p></div><div>Dataset snapshot · 22 October 2026<br>Built from 46 consensus-coded records</div></footer>
+<div id="toast" role="status" aria-live="polite"></div>
+<dialog id="bib-dialog"><div class="dialog-top"><h2 id="bib-heading">BibTeX</h2><button class="button secondary" id="close-bib">Close</button></div><pre id="bib-content"></pre><button class="button" id="download-one-bib">Download .bib ↓</button></dialog>
+<noscript><p class="noscript">Enable JavaScript to filter the explorer. The source data are also available as <a href="data/corpus.csv">corpus.csv</a> and <a href="data/stage_mode_crosswalk.csv">stage_mode_crosswalk.csv</a>.</p></noscript>
+<script id="dataset" type="application/json">__DATA_JSON__</script>
+<script>__APP__</script>
+</body>
+</html>

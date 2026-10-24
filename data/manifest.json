@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "snapshot_date": "2026-10-22",
+  "included_records": 46,
+  "excluded_records": 9,
+  "source_of_counts": "stage_mode_crosswalk.csv",
+  "files": {
+    "corpus.csv": "8cb63d38c0086e3bfddd01547a495339a7a20f201270eea1b90f3f27a51f43b0",
+    "stage_mode_crosswalk.csv": "5a29c38ef6a910f2a6309fb56d3cf2c130ca98b8fb00a6502af10175fbed045f",
+    "excluded_candidates.csv": "c46f88b7689978785d278501d0191c048049af75f86b9779152d34d871ba91b2",
+    "references.bib": "15d7962139359a1c1e184688654b949809aaf1b8526f9e488fe0f92db2dc41a4",
+    "CODEBOOK.md": "664f17cd62b9b2f7202fe55a050ec463a2015edd3cdf37ae258a86dc5d55f1c5",
+    "explorer.json": "697ca0732e3793a1e2b7cb5dd4b89add69e51f19f75eba7fde2b3bbd5c7d0541"
+  }
+}
